@@ -5,6 +5,7 @@ This project implements a finite difference discretization of the complex Helmho
 ## Problem
 
 The complex Helmholtz equation is defined as
+
 $$
 -\frac{\partial^2 u}{\partial x^2}
 -\frac{\partial^2 u}{\partial y^2}
