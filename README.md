@@ -55,6 +55,3 @@ Open the notebook:
 jupyter notebook notebooks/helmholtz_iterative_solvers.ipynb
 
 The solver can be selected inside the notebook by modifying the solver variable in the experiment configuration section.
-
-
-de the notebook by modifying the solver variable in the experiment configuration se
