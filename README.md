@@ -6,14 +6,23 @@ This project implements a finite difference discretization of the complex Helmho
 
 The complex Helmholtz equation is defined as
 
-\begin{equation*}
-\begin{aligned}-\frac{\partial^2 u}{\partial x^2} - \frac{\partial^2 u}{\partial y^2} -c(x,y)\hat{i}u & = f(x,y) \, \, \text{ for } (x,y)\in \Omega, \\
-u & = g(x,y) \, \, \text{ on } (x,y)\in \partial \Omega,
+$$
+\begin{aligned}
+-\frac{\partial^2 u}{\partial x^2}
+-\frac{\partial^2 u}{\partial y^2}
+-c(x,y)\hat{i}u
+&= f(x,y), \quad (x,y)\in\Omega, \\
+u &= g(x,y), \quad (x,y)\in\partial\Omega.
 \end{aligned}
-\end{equation*}
-where $\Omega = (0,1)^2$. We choose $c(x,y) = 2$, and $f(x,y)$ and $g(x,y)$ such that 
-$$u_{ex} = x(1-x)y^3(1-y)+e^x$$
+$$
+where $\Omega = (0,1)^2$. We choose $c(x,y)=2$, and $f(x,y)$ and $g(x,y)$ such that
+
+$$
+u_{ex}(x,y)=x(1-x)y^3(1-y)+e^x
+$$
+
 is the exact solution. The domain is discretized using a uniform finite difference grid with mesh size
+
 $$
 h=\frac{1}{N}.
 $$
