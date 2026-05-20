@@ -10,15 +10,17 @@ $$
 -\frac{\partial^2 u}{\partial x^2}
 -\frac{\partial^2 u}{\partial y^2}
 -c(x,y)\hat{i}u
-= f(x,y), \quad (x,y)\in\Omega,$$
+=
+f(x,y),
+\quad (x,y)\in\Omega
 $$
-u = g(x,y), \quad (x,y)\in\partial\Omega.
-$$
-where $\Omega = (0,1)^2$. We choose $c(x,y)=2$, and $f(x,y)$ and $g(x,y)$ such that
 
 $$
-u_{ex}(x,y)=x(1-x)y^3(1-y)+e^x
+u = g(x,y),
+\quad (x,y)\in\partial\Omega
 $$
+
+where $\Omega = (0,1)^2$.
 
 is the exact solution. The domain is discretized using a uniform finite difference grid with mesh size
 
