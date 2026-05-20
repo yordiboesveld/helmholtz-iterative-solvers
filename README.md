@@ -7,15 +7,7 @@ This project implements a finite difference discretization of the complex Helmho
 The complex Helmholtz equation is defined as
 
 $$
-x^2 + y^2 = z^2
-$$
-
-$$
--\frac{\partial^2 u}{\partial x^2}
--\frac{\partial^2 u}{\partial y^2}
--c(x,y)\hat{i}u
-=
-f(x,y), \quad (x,y)\in\Omega
+-\frac{\partial^2 u}{\partial x^2} - \frac{\partial^2 u}{\partial y^2} - c(x,y)\hat{i}u = f(x,y), \quad (x,y)\in\Omega
 $$
 
 where $\Omega = (0,1)^2$.
