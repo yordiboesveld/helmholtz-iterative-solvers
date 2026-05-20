@@ -37,11 +37,11 @@ $$
 ## Results
 The notebook contains:
 
-convergence studies
-residual reduction analysis
-runtime comparisons
-error analysis
-convergence plots for multiple grid resolutions
+- convergence studies
+- residual reduction analysis
+- runtime comparisons
+- error analysis
+- convergence plots for multiple grid resolutions
 
 The experiments investigate the effect of preconditioning on convergence speed and scalability.
 
