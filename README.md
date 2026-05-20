@@ -47,7 +47,7 @@ The experiments investigate the effect of preconditioning on convergence speed a
 
 ## Running the Project
 
-Install the required packages:
+The project was developed and tested using Python 3.12. Install the required packages:
 pip install -r requirements.txt
 
 Open the notebook:
